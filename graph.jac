@@ -1,6 +1,10 @@
-/ Edges
+// Edges
 edge married;
 edge child;
+
+edge father;
+edge mother;
+
 edge member;
 
 // Nodes
@@ -15,13 +19,18 @@ node person {
     has parents;
     has children;
     has spouse;
+
+  
+
     has age;
-    has days_to_birthday;
+    has category;
+    //has days_to_birthday;
 
     can get_age {
         today_date = date.date_now();
         difference = date.date_day_diff(start_date=date_of_birth, end_date=today_date);
-        age = difference / 365;
+        age =difference / 365;
+    
     }
 
     can get_categorize{

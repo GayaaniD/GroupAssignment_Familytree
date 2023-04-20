@@ -24,16 +24,18 @@ node person {
         age = difference / 365;
     }
 
-    can get_days_to_birthday {
+    can get_categorize{
         today_date = date.date_now();
-        today_year = today_date.str::split('-')[0];
-        birthdate_split = date_of_birth.str::split('-');
-        birth_month = birthdate_split[1];
-        birth_day = birthdate_split[2];
-        birthday = '-'.str::join([today_year, birth_month, birth_day]);
-        difference = date.date_day_diff(start_date=today_date, end_date=birthday);
-        if (difference < 0) : difference = difference + 365;
-        days_to_birthday = difference;
+        difference = date.date_day_diff(start_date=date_of_birth, end_date=today_date);
+        age =difference / 365;
+
+         if(age<5):category = "baby" ;
+         elif(age<13):category = "child";
+         elif(age<19):category = "Teenage";
+         elif(age<39):category = "Adult";
+         elif(age<54):category = "Middle_age";
+         else:category = "elder";
+
     }
 }
 node family_root {

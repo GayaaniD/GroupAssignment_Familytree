@@ -115,3 +115,32 @@
             "spouse": null,
             "gender": "Female"
         },
+        {
+            "uid": "0x7",
+            "family_id": "0x1",
+            "name": "latani Irugalbandara", 
+            "date_of_birth": "1998-07-07",                            
+            "profession": "Electrical Engineer",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Female"
+        },
+        {
+            "uid": "0x8",
+            "family_id": "0x1",
+            "name": "saravanan Irugalbandara", 
+            "date_of_birth": "1950-08-07",                             
+            "profession": null,
+            "parents": null,
+            "deceased": false,
+            "children":  [
+                "0x2"    
+            ],
+            "spouse": "0x9",
+            "gender": "Male"
+        },

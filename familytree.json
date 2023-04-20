@@ -48,3 +48,40 @@
             "spouse": "0x3",
             "gender": "Male"
         },
+        {
+            "uid": "0x3",
+            "family_id": "0x2",                   
+            "name": "gayaani Manike",
+            "date_of_birth": "1980-02-10",
+            "profession": "Doctor",
+            "parents": {
+                "father": "0x10",
+                "mother": "0x11"
+            },
+            "deceased": false,
+            "children": [
+                "0x1",
+                "0x4",
+                "0x5",
+                "0x6",
+                "0x7"
+            ],
+            "spouse": "0x2",
+            "gender": "Female"
+        },
+        {
+            
+            "uid": "0x4",
+            "family_id": "0x1",
+            "name": "Vishwa Irugalbandara",        
+            "date_of_birth": "2015-08-12",
+            "profession": "student",
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Male"
+        },

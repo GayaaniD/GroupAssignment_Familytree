@@ -10,7 +10,6 @@ node person {
     has name;
     has date_of_birth;
     has profession;
-    
     has gender;
     has deceased;
     has parents;

@@ -144,3 +144,50 @@
             "spouse": "0x9",
             "gender": "Male"
         },
+        {
+            "uid": "0x9",
+            "family_id": "0x1",
+            "name": "jiso rajapaksha", 
+            "date_of_birth": "1950-08-07",                          
+            "profession": null,
+            "parents": null,
+            "deceased": false,
+            "children":  [
+                "0x2"    
+            ],
+            "spouse": "0x8",
+            "gender": "Female"
+        },
+        {
+            "uid": "0x10",
+            "family_id": "0x2",
+            "name": "Priyantha Jayalath", 
+            "date_of_birth": "1949-10-07",                            
+            "profession": null,
+            "parents": null,
+            "deceased": false,
+            "children":  [
+                "0x3"    
+            ],
+            "spouse": "0x11",
+            "gender": "Male"
+        },
+        {
+            "uid": "0x11",
+            "family_id": "0x2",
+            "name": "Lisa senanayaka", 
+            "date_of_birth": "1951-02-07",                           
+            "profession": null,
+            "parents": null,
+            "deceased": false,
+            "children":  [
+                "0x3"    
+            ],
+            "spouse": "0x10",
+            "gender": "Female"
+        }
+
+        
+
+    ]
+}

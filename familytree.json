@@ -1,1 +1,50 @@
+{
+    "families": [
+        {
+            "family_name": "Irugalbandara",    
+            "uid": "0x1"
+        },
+        {
+            "family_name": "Jayalath",           
+            "uid": "0x2"
+        }
+    ],
+    "members": [
+        {
+            "uid": "0x1",                                        
+            "family_id": "0x1",
+            "name": "Pasindu Irugalbandara",
+            "date_of_birth": "2021-05-06",
+            "profession": null,                        
+            "parents": {
+                "father": "0x2",
+                "mother": "0x3"
+            },
+            "deceased": false,
+            "children": [],
+            "spouse": null,
+            "gender": "Male"
+        },
 
+
+        {
+            "uid": "0x2",
+            "family_id": "0x1",
+            "name": "Sujeewa Rathnakumara",
+            "date_of_birth": "1978-02-10",
+            "profession": "Mechanical Engineer",   
+            "parents": {
+                "father": "0x8",
+                "mother": "0x9"
+            },
+            "deceased": true,
+            "children": [
+                "0x1",
+                "0x4",
+                "0x5",
+                "0x6",
+                "0x7"
+            ],
+            "spouse": "0x3",
+            "gender": "Male"
+        },

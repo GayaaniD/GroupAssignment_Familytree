@@ -51,3 +51,23 @@ walker create_familytree {
         }
     }
 }
+walker age_categorization {
+    // categorize the people according to the age
+
+    has anchor categories = [];
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    person {
+        if (!here.deceased) {
+            here::get_categorize;
+            here::get_age;
+            categories.l::append([here.category, here.age, here.name]);
+        }
+    }
+    with exit {
+        
+        std.out( categories);
+        report  categories;
+    }
+}
